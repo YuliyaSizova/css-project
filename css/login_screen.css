@@ -1,3 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+    height: 100%;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.battery, .wifi, .connection {
+    margin: 3px;
+}
+.info-bar {
+    margin: 20px 0 0 30px;
+    font-weight: 600;
+}
+.earth {
+    margin: 0 auto;
+}
+.inviting-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0;
+}
+
+.inspired {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.inviting {
+    margin: 20px 0;
+    color: #BBBBBB;
+    font-size: 18px;
+    text-align: center;
+}
+
+.rectangle {
+    margin: 0 auto;
+    height: 2px;
+    width: 20px;
+    background-color: #F25C62;
+}
+.dots {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin: 0 auto;
+}
+.dot {
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    height: 4px;
+    width: 4px;
+    border: 2px solid #ffffff;
+    background-color: #BBBBBB;
+    border-radius: 50%;
+}
+
+.dot:hover {
+    background-color: #F25C62;
+    border-color: #F25C62;
+    border-radius: 50%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin:  24px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 15px ;
+    font-weight: 600;
+    text-align: center;
+    color: #ADADAD;
+    transition: all 1s ease-out 0s;
+}
+.signInButton{
+    margin:  2px 20px 20px ;
+    background-color: #F25C62;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.facebookButton {
+    margin:  20px;
+    background-color: #4267B1;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.button:hover {
+    box-shadow: 0px 3px 7px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    border-radius: 15px;
+
+}
+
+.footer {
+    background: #F7F7F7;
+    flex: 0 0 auto;
 }
