@@ -1,0 +1,94 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 30px  20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 34px;
+}
+.notification {
+    display: flex;
+    flex-direction: row;
+}
+.notification-box {
+    margin: 0 auto;
+    height: 40px;
+    width: 220px;
+    border: 5px solid #F3F3F3;
+    text-align: center;
+}
+.box-title {
+    margin: 10px 40px;
+}
+
+.box-active {
+    background-color: #F3F3F3;
+}
+.ball {
+    color: #F25C62;
+}
+.note {
+    margin: 30px  20px;
+}
+.note-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.note-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.greeting {
+    font-size: 17px;
+}
+.time {
+    font-size: 14px;
+    color: #ADADAD
+}
+.day {
+    font-size: 18px;
+    color: #969696;
+    font-weight: 600;
+}
+.note-images {
+    margin-top: 30px;
+}
+
+.note-image {
+    object-fit: cover;
+    border-radius:15%;
+    width: 55px;
+    height: 90px
+}
+
+
+.note-image img {
+    max-width: initial;
+}
+.icon-pin {
+    color: #F25C62;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+}
+.menu {
+    color: #CA4248;
+    margin: 10px auto;
+}
+.menu-active {
+    color: white;
+}
+
+.footer {
+    background: #F25C62;
+    flex: 0 0 auto;
+    height: 83px;
+}
+
