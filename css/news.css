@@ -19,16 +19,25 @@
     border: 5px solid #F3F3F3;
     text-align: center;
 }
+
 .box-title {
     margin: 10px 40px;
+}
+.box-title sup {
+    width: 8px;
+    height: 8px;
+    background-color: #F25C62;
+    display: inline-block;
+    border-radius: 50%;
 }
 
 .box-active {
     background-color: #F3F3F3;
 }
-.ball {
-    color: #F25C62;
+.notification-box:hover {
+    background-color: #fafbed;
 }
+
 .note {
     margin: 30px  20px;
 }
@@ -55,6 +64,8 @@
     font-weight: 600;
 }
 .note-images {
+    display: flex;
+    justify-content: space-between;
     margin-top: 30px;
 }
 
@@ -66,21 +77,21 @@
 }
 
 
-.note-image img {
-    max-width: initial;
-}
 .icon-pin {
     color: #F25C62;
 }
-
 .icons {
     display: flex;
     flex-direction: row;
     min-height: 100%;
 }
+
 .menu {
     color: #CA4248;
     margin: 10px auto;
+}
+.menu:hover {
+    color: #e5999f;
 }
 .menu-active {
     color: white;
@@ -90,5 +101,15 @@
     background: #F25C62;
     flex: 0 0 auto;
     height: 83px;
+    position: relative;
+}
+.down-bar {
+    background-color: #CA4248;
+    width: 30%;
+    height: 5px;
+    border-radius: 15%;
+    position: absolute;
+    top: 80%;
+    margin: 0 35%;
 }
 
