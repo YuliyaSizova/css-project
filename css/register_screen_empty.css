@@ -10,10 +10,20 @@
 .form-field {
     font-size: 21px;
     font-weight: 600;
-    color: #ADADAD
+    color: #ADADAD;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid transparent;
+    caret-color: #F25C62;
+    width: 327px;
+}
+.form-field:focus {
+    border-bottom: 1px solid #F25C62;
+    color: black;
 }
 .header {
-    margin: 10px 0 50px 20px
+    margin: 10px 0 10px 20px;
+
 }
 .user-icon {
     background-color: #F25C62;
@@ -27,7 +37,7 @@
     margin: 35% 0 0 10%;
     color: white;
 }
-.form {
+.fields {
     margin: 10px 0 10px 20px;
 }
 
